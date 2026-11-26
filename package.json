@@ -1,0 +1,1 @@
+{"description":"make.fun one-liner entry: roast the smart fridge in one line of at most 160 characters","engines":{"node":">=22.18"},"license":"MIT","name":"smart-fridge-roast-20261126","private":true,"scripts":{"start":"node main.ts"},"type":"module","version":"1.0.0"}
