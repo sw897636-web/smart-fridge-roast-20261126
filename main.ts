@@ -4,11 +4,11 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
-// The entry: the fridge's door screen advertises ice cream to a person
-// already holding ice cream — a waiter upselling the dessert you own.
-// 153 characters, one line, no stock milk-reorder joke.
+// The entry: the fridge flashes an ad for the ice cream already melting
+// in your hand, then orders another tub — upselling the dessert you own.
+// 156 characters, one line, one sentence.
 const ENTRY =
-  "My smart fridge's door screen plays ads for ice cream while I'm standing there holding ice cream — a waiter upselling me the dessert I'm already holding.";
+  "My smart fridge flashed an ad for the mint-choc-chip tub dripping down my hand, then ordered another one — because one melting tub apparently wasn't enough.";
 
 const outPath = "/output/entry.txt";
 
